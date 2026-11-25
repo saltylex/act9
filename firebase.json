@@ -1,0 +1,22 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pasignasigna-student-557989",
+          "configurations": {
+            "web": "1:305312680487:web:49858c29f89bf885fb1c02"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "auth": {
+    "providers": {
+      "anonymous": true
+    }
+  }
+}

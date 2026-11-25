@@ -1,0 +1,69 @@
+{
+  "project": "pasignasigna-student-557989",
+  "uid": "DoLzPYpTD5PEolNKDIYzqjvUBBs1",
+  "beforeUpdate": [
+    {
+      "id": "Ak2vnVN5j6Sql3EXaO6R",
+      "name": "Morgan Reyes",
+      "course": "BSIS"
+    },
+    {
+      "id": "umyLKEXVsmJab2htUBXp",
+      "name": "Alex Santos",
+      "course": "BSIT"
+    },
+    {
+      "id": "wxjWfarskkh2V7vJtNs7",
+      "name": "Jamie Cruz",
+      "course": "BSCS"
+    }
+  ],
+  "afterUpdate": [
+    {
+      "id": "Ak2vnVN5j6Sql3EXaO6R",
+      "name": "Morgan Reyes",
+      "course": "BSIS"
+    },
+    {
+      "id": "umyLKEXVsmJab2htUBXp",
+      "name": "Alex Santos",
+      "course": "BSCS"
+    },
+    {
+      "id": "wxjWfarskkh2V7vJtNs7",
+      "name": "Jamie Cruz",
+      "course": "BSCS"
+    }
+  ],
+  "afterDelete": [
+    {
+      "id": "Ak2vnVN5j6Sql3EXaO6R",
+      "name": "Morgan Reyes",
+      "course": "BSIS"
+    },
+    {
+      "id": "umyLKEXVsmJab2htUBXp",
+      "name": "Alex Santos",
+      "course": "BSCS"
+    }
+  ],
+  "checks": {
+    "emptyValidation": true,
+    "whitespaceValidation": true,
+    "create": true,
+    "read": true,
+    "updateSameDocument": true,
+    "cancelEdit": true,
+    "cancelDeletion": true,
+    "confirmedDeletion": true,
+    "reopenPersistence": true
+  },
+  "securityRules": {
+    "ownerRead": true,
+    "unauthenticatedReadDenied": true,
+    "otherUserReadDenied": true,
+    "missingCourseDenied": true,
+    "extraFieldDenied": true,
+    "overlongNameDenied": true
+  }
+}
